@@ -1,54 +1,202 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@babel/core': ^7.11.6
-  '@babel/preset-env': ^7.11.5
-  autoprefixer: ^9.8.6
-  babel-loader: ^8.1.0
-  clean-webpack-plugin: ^3.0.0
-  core-js: ^3.6.5
-  css-loader: ^4.2.2
-  file-loader: ^6.1.0
-  html-webpack-plugin: ^4.4.1
-  mini-css-extract-plugin: ^0.11.0
-  postcss: ^7.0.32
-  postcss-loader: ^3.0.0
-  sass: ^1.26.10
-  sass-loader: ^10.0.2
-  style-loader: ^1.2.1
-  vue: ^2.6.12
-  vue-loader: ^15.9.3
-  vue-router: ^3.4.3
-  vue-template-compiler: ^2.6.12
-  webpack: ^4.44.1
-  webpack-cli: ^3.3.12
-  webpack-dev-server: ^3.11.0
+importers:
 
-dependencies:
-  core-js: 3.25.5
-  vue: 2.7.10
-  vue-router: 3.6.5_vue@2.7.10
+  frontend-module1:
+    specifiers:
+      '@babel/core': ^7.11.6
+      '@babel/preset-env': ^7.11.5
+      autoprefixer: ^9.8.6
+      babel-loader: ^8.1.0
+      clean-webpack-plugin: ^3.0.0
+      core-js: ^3.6.5
+      css-loader: ^4.2.2
+      file-loader: ^6.1.0
+      html-webpack-plugin: ^4.4.1
+      mini-css-extract-plugin: ^0.11.0
+      postcss: ^7.0.32
+      postcss-loader: ^3.0.0
+      sass: ^1.26.10
+      sass-loader: ^10.0.2
+      style-loader: ^1.2.1
+      vue: ^2.6.12
+      vue-loader: ^15.9.3
+      vue-router: ^3.4.3
+      vue-template-compiler: ^2.6.12
+      webpack: ^4.44.1
+      webpack-cli: ^3.3.12
+      webpack-dev-server: ^3.11.0
+    dependencies:
+      core-js: 3.25.5
+      vue: 2.7.10
+      vue-router: 3.6.5_vue@2.7.10
+    devDependencies:
+      '@babel/core': 7.19.3
+      '@babel/preset-env': 7.19.3_@babel+core@7.19.3
+      autoprefixer: 9.8.8
+      babel-loader: 8.2.5_jeg5564y5etyvi3ajplf6yhqg4
+      clean-webpack-plugin: 3.0.0_webpack@4.46.0
+      css-loader: 4.3.0_webpack@4.46.0
+      file-loader: 6.2.0_webpack@4.46.0
+      html-webpack-plugin: 4.5.2_webpack@4.46.0
+      mini-css-extract-plugin: 0.11.3_webpack@4.46.0
+      postcss: 7.0.39
+      postcss-loader: 3.0.0
+      sass: 1.55.0
+      sass-loader: 10.3.1_sass@1.55.0+webpack@4.46.0
+      style-loader: 1.3.0_webpack@4.46.0
+      vue-loader: 15.10.0_4wsxqzq5ckctc2wnsgzzakkdy4
+      vue-template-compiler: 2.7.10
+      webpack: 4.46.0_webpack-cli@3.3.12
+      webpack-cli: 3.3.12_webpack@4.46.0
+      webpack-dev-server: 3.11.3_i3w7szmgtxghzdij4arpgmor5i
 
-devDependencies:
-  '@babel/core': 7.19.3
-  '@babel/preset-env': 7.19.3_@babel+core@7.19.3
-  autoprefixer: 9.8.8
-  babel-loader: 8.2.5_jeg5564y5etyvi3ajplf6yhqg4
-  clean-webpack-plugin: 3.0.0_webpack@4.46.0
-  css-loader: 4.3.0_webpack@4.46.0
-  file-loader: 6.2.0_webpack@4.46.0
-  html-webpack-plugin: 4.5.2_webpack@4.46.0
-  mini-css-extract-plugin: 0.11.3_webpack@4.46.0
-  postcss: 7.0.39
-  postcss-loader: 3.0.0
-  sass: 1.55.0
-  sass-loader: 10.3.1_sass@1.55.0+webpack@4.46.0
-  style-loader: 1.3.0_webpack@4.46.0
-  vue-loader: 15.10.0_4wsxqzq5ckctc2wnsgzzakkdy4
-  vue-template-compiler: 2.7.10
-  webpack: 4.46.0_webpack-cli@3.3.12
-  webpack-cli: 3.3.12_webpack@4.46.0
-  webpack-dev-server: 3.11.3_i3w7szmgtxghzdij4arpgmor5i
+  frontend-module2:
+    specifiers:
+      '@babel/core': ^7.11.6
+      '@babel/preset-env': ^7.11.5
+      autoprefixer: ^9.8.6
+      babel-loader: ^8.1.0
+      clean-webpack-plugin: ^3.0.0
+      core-js: ^3.6.5
+      css-loader: ^4.2.2
+      file-loader: ^6.1.0
+      html-webpack-plugin: ^4.4.1
+      mini-css-extract-plugin: ^0.11.0
+      postcss: ^7.0.32
+      postcss-loader: ^3.0.0
+      sass: ^1.26.10
+      sass-loader: ^10.0.2
+      style-loader: ^1.2.1
+      vue: ^2.6.12
+      vue-loader: ^15.9.3
+      vue-router: ^3.4.3
+      vue-template-compiler: ^2.6.12
+      webpack: ^4.44.1
+      webpack-cli: ^3.3.12
+      webpack-dev-server: ^3.11.0
+    dependencies:
+      core-js: 3.25.5
+      vue: 2.7.10
+      vue-router: 3.6.5_vue@2.7.10
+    devDependencies:
+      '@babel/core': 7.19.3
+      '@babel/preset-env': 7.19.3_@babel+core@7.19.3
+      autoprefixer: 9.8.8
+      babel-loader: 8.2.5_jeg5564y5etyvi3ajplf6yhqg4
+      clean-webpack-plugin: 3.0.0_webpack@4.46.0
+      css-loader: 4.3.0_webpack@4.46.0
+      file-loader: 6.2.0_webpack@4.46.0
+      html-webpack-plugin: 4.5.2_webpack@4.46.0
+      mini-css-extract-plugin: 0.11.3_webpack@4.46.0
+      postcss: 7.0.39
+      postcss-loader: 3.0.0
+      sass: 1.55.0
+      sass-loader: 10.3.1_sass@1.55.0+webpack@4.46.0
+      style-loader: 1.3.0_webpack@4.46.0
+      vue-loader: 15.10.0_4wsxqzq5ckctc2wnsgzzakkdy4
+      vue-template-compiler: 2.7.10
+      webpack: 4.46.0_webpack-cli@3.3.12
+      webpack-cli: 3.3.12_webpack@4.46.0
+      webpack-dev-server: 3.11.3_i3w7szmgtxghzdij4arpgmor5i
+
+  frontend-module3:
+    specifiers:
+      '@babel/core': ^7.11.6
+      '@babel/preset-env': ^7.11.5
+      autoprefixer: ^9.8.6
+      babel-loader: ^8.1.0
+      clean-webpack-plugin: ^3.0.0
+      core-js: ^3.6.5
+      css-loader: ^4.2.2
+      file-loader: ^6.1.0
+      html-webpack-plugin: ^4.4.1
+      mini-css-extract-plugin: ^0.11.0
+      postcss: ^7.0.32
+      postcss-loader: ^3.0.0
+      sass: ^1.26.10
+      sass-loader: ^10.0.2
+      style-loader: ^1.2.1
+      vue: ^2.6.12
+      vue-loader: ^15.9.3
+      vue-router: ^3.4.3
+      vue-template-compiler: ^2.6.12
+      webpack: ^4.44.1
+      webpack-cli: ^3.3.12
+      webpack-dev-server: ^3.11.0
+    dependencies:
+      core-js: 3.25.5
+      vue: 2.7.10
+      vue-router: 3.6.5_vue@2.7.10
+    devDependencies:
+      '@babel/core': 7.19.3
+      '@babel/preset-env': 7.19.3_@babel+core@7.19.3
+      autoprefixer: 9.8.8
+      babel-loader: 8.2.5_jeg5564y5etyvi3ajplf6yhqg4
+      clean-webpack-plugin: 3.0.0_webpack@4.46.0
+      css-loader: 4.3.0_webpack@4.46.0
+      file-loader: 6.2.0_webpack@4.46.0
+      html-webpack-plugin: 4.5.2_webpack@4.46.0
+      mini-css-extract-plugin: 0.11.3_webpack@4.46.0
+      postcss: 7.0.39
+      postcss-loader: 3.0.0
+      sass: 1.55.0
+      sass-loader: 10.3.1_sass@1.55.0+webpack@4.46.0
+      style-loader: 1.3.0_webpack@4.46.0
+      vue-loader: 15.10.0_4wsxqzq5ckctc2wnsgzzakkdy4
+      vue-template-compiler: 2.7.10
+      webpack: 4.46.0_webpack-cli@3.3.12
+      webpack-cli: 3.3.12_webpack@4.46.0
+      webpack-dev-server: 3.11.3_i3w7szmgtxghzdij4arpgmor5i
+
+  frontend-module4:
+    specifiers:
+      '@babel/core': ^7.11.6
+      '@babel/preset-env': ^7.11.5
+      autoprefixer: ^9.8.6
+      babel-loader: ^8.1.0
+      clean-webpack-plugin: ^3.0.0
+      core-js: ^3.6.5
+      css-loader: ^4.2.2
+      file-loader: ^6.1.0
+      html-webpack-plugin: ^4.4.1
+      mini-css-extract-plugin: ^0.11.0
+      postcss: ^7.0.32
+      postcss-loader: ^3.0.0
+      sass: ^1.26.10
+      sass-loader: ^10.0.2
+      style-loader: ^1.2.1
+      vue: ^2.6.12
+      vue-loader: ^15.9.3
+      vue-router: ^3.4.3
+      vue-template-compiler: ^2.6.12
+      webpack: ^4.44.1
+      webpack-cli: ^3.3.12
+      webpack-dev-server: ^3.11.0
+    dependencies:
+      core-js: 3.25.5
+      vue: 2.7.10
+      vue-router: 3.6.5_vue@2.7.10
+    devDependencies:
+      '@babel/core': 7.19.3
+      '@babel/preset-env': 7.19.3_@babel+core@7.19.3
+      autoprefixer: 9.8.8
+      babel-loader: 8.2.5_jeg5564y5etyvi3ajplf6yhqg4
+      clean-webpack-plugin: 3.0.0_webpack@4.46.0
+      css-loader: 4.3.0_webpack@4.46.0
+      file-loader: 6.2.0_webpack@4.46.0
+      html-webpack-plugin: 4.5.2_webpack@4.46.0
+      mini-css-extract-plugin: 0.11.3_webpack@4.46.0
+      postcss: 7.0.39
+      postcss-loader: 3.0.0
+      sass: 1.55.0
+      sass-loader: 10.3.1_sass@1.55.0+webpack@4.46.0
+      style-loader: 1.3.0_webpack@4.46.0
+      vue-loader: 15.10.0_4wsxqzq5ckctc2wnsgzzakkdy4
+      vue-template-compiler: 2.7.10
+      webpack: 4.46.0_webpack-cli@3.3.12
+      webpack-cli: 3.3.12_webpack@4.46.0
+      webpack-dev-server: 3.11.3_i3w7szmgtxghzdij4arpgmor5i
 
 packages:
 
