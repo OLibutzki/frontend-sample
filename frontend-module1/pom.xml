@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>frontend-sample</groupId>
-		<artifactId>frontend-parent</artifactId>
+		<artifactId>frontend-sample</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>frontend-module1</artifactId>
