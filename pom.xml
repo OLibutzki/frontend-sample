@@ -34,16 +34,7 @@
 							<phase>generate-resources</phase>
 
 							<configuration>
-								<arguments>install</arguments>
-							</configuration>
-						</execution>
-						<execution>
-							<id>pnpm-build</id>
-							<goals>
-								<goal>pnpm</goal>
-							</goals>
-							<configuration>
-								<arguments>build</arguments>
+								<arguments>--filter "${project.artifactId}" install</arguments>
 							</configuration>
 						</execution>
 					</executions>
