@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>frontend-sample</groupId>
+	<artifactId>frontend-sample</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>frontend-module1</module>
+		<module>frontend-module2</module>
+		<module>frontend-module3</module>
+		<module>frontend-module4</module>
+	</modules>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>com.github.eirslett</groupId>
+					<artifactId>frontend-maven-plugin</artifactId>
+					<version>1.12.1</version>
+					<executions>
+						<execution>
+							<id>install node and pnpm</id>
+							<goals>
+								<goal>install-node-and-pnpm</goal>
+							</goals>
+							<phase>generate-resources</phase>
+						</execution>
+						<execution>
+							<id>install-node-dependencies</id>
+							<goals>
+								<goal>pnpm</goal>
+							</goals>
+
+							<phase>generate-resources</phase>
+
+							<configuration>
+								<arguments>install</arguments>
+							</configuration>
+						</execution>
+						<execution>
+							<id>pnpm-build</id>
+							<goals>
+								<goal>pnpm</goal>
+							</goals>
+							<configuration>
+								<arguments>build</arguments>
+							</configuration>
+						</execution>
+					</executions>
+					<configuration>
+						<nodeVersion>v16.17.1</nodeVersion>
+						<pnpmVersion>7.13.1</pnpmVersion>
+						<installDirectory>..</installDirectory>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+	</build>
+
+</project>
