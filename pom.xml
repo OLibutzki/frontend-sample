@@ -34,7 +34,7 @@
 							<phase>generate-resources</phase>
 
 							<configuration>
-								<arguments>--filter "${project.artifactId}" install</arguments>
+								<arguments>install</arguments>
 							</configuration>
 						</execution>
 					</executions>
